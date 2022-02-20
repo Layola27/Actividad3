@@ -8,7 +8,7 @@ public class PrimaEmpleado {
 
 	public static void main(String[] args) {
                 
-		PrimaEmpleado e = new PrimaEmpleado();
+		PrimaEmpleado e = new PrimaEmpleado("Elvira","S",11);
 
 		int p = 0;
 		if (e.antiguitat >= 0 && e.antiguitat < 1000) {
