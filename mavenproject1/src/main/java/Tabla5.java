@@ -1,42 +1,14 @@
 
 public class Tabla5 {
 
-    
     public static void main(String[] args) {
-         int resultado =0; 
-        int tabla = 5;
-        int multiplicando = 0;
-        System.out.println(tabla + " X " + multiplicando + " = " + resultado);
-        resultado += tabla;
-        multiplicando+=1;
-        System.out.println(tabla + " X " + multiplicando + " = " + resultado);
-        resultado += tabla;
-        multiplicando+=1;
-        System.out.println(tabla + " X " + multiplicando + " = " + resultado);
-        resultado += tabla;
-        multiplicando+=1;
-        System.out.println(tabla + " X " + multiplicando + " = " + resultado);
-        resultado += tabla;
-        multiplicando+=1;
-        System.out.println(tabla + " X " + multiplicando + " = " + resultado);
-        resultado += tabla;
-        multiplicando+=1;
-        System.out.println(tabla + " X " + multiplicando + " = " + resultado);
-        resultado += tabla;
-        multiplicando+=1;
-        System.out.println(tabla + " X " + multiplicando + " = " + resultado);
-        resultado += tabla;
-        multiplicando+=1;
-        System.out.println(tabla + " X " + multiplicando + " = " + resultado);
-        resultado += tabla;
-        multiplicando+=1;
-        System.out.println(tabla + " X " + multiplicando + " = " + resultado);
-        resultado += tabla;
-        multiplicando+=1;
-        System.out.println(tabla + " X " + multiplicando + " = " + resultado);
-        resultado += tabla;
-        multiplicando+=1;
-        System.out.println(tabla + " X " + multiplicando + " = " + resultado);  
+        System.out.println("Tabla del 5:");
+        for(int i = 0; i <= 10; i++ ){
+            
+            System.out.println(5 * i);
+            
+        }
+        System.out.println("--------------FIN--------------");
     }
     
 }
